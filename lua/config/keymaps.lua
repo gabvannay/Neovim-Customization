@@ -4,4 +4,3 @@
 
 -- Utility keymaps
 vim.keymap.set({ "n", "i", "v" }, "<C-s>", "<Esc>:w<Enter>")
-vim.keymap.set("n", "<Tab><Tab>", "]b")
