@@ -15,7 +15,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "material-deep-ocean",
+      colorscheme = "material-darker",
     },
   },
 }
