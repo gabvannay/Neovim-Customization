@@ -6,3 +6,9 @@
 
 -- Utility keymaps
 vim.keymap.set({ "n", "i", "v" }, "<C-s>", "<Esc><Cmd>w<CR>", { silent = true })
+vim.keymap.set(
+  "",
+  "<F3>",
+  require("lsp_lines").toggle,
+  { desc = "Toggle lsp_lines" }
+)

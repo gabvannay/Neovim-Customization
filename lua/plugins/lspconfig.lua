@@ -2,11 +2,23 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      pylsp = {},
+      -- pylsp = {},
       biome = {},
       docker_compose_language_service = {},
       dockerls = {},
-      svelte = {},
+      svelte = {
+        settings = {
+          svelte = {
+            format = {
+              enable = true,
+              options = {
+                tabSize = 4,
+                insertSpaces = true,
+              },
+            },
+          },
+        },
+      },
       clangd = {},
     },
   },
