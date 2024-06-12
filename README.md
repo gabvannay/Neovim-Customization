@@ -9,7 +9,20 @@ Using [LazyVim](http://www.lazyvim.org/) as a base and adding my own plugins to 
 
 ### Linux
 
-1. [Head to *Neovim*'s GitHub](https://github.com/neovim/neovim/blob/master/INSTALL.md) and follow the instructions to download it
+1. [Head to *Neovim*'s GitHub](https://github.com/neovim/neovim/blob/master/INSTALL.md) and follow the instructions to download it, here's the example using the pre-built binaries
+
+```bash
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+```
+
+... and then add the path to your `.bashrc`
+
+```bash
+export PATH="$PATH:/opt/nvim-linux64/bin"
+```
+
 2. Clone this repo into your config folder
 
 ```bash
@@ -24,7 +37,7 @@ nvim
 
 ### Windows
 
-1. Make sure you have [chocolatey](https://chocolatey.org/) installed
+1. Make sure you have [chocolatey](https://chocolatey.org/) installed by typing `choco -v` if you don't have any result, you can install it with the command below.
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -42,7 +55,13 @@ choco install zig
 winget install --id=Neovim.Neovim -s winget
 ```
 
-3. Launch *Neovim* and the plugins should install automatically
+4. Clone this repo into your config folder
+
+```bash
+git clone https://github.com/gabvannay/Neovim-Customization.git $env:LOCALAPPDATA\nvim
+```
+
+5. Launch *Neovim* and the plugins should install automatically
 
 ```bash
 nvim
