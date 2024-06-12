@@ -5,7 +5,14 @@ Using [LazyVim](http://www.lazyvim.org/) as a base and adding my own plugins to 
 
 ## Table of content
 
-## How to Install
+* [How to install](#how-to-install)
+    * [Linux](#linux)
+    * [Windows](#windows)
+* [Plugins used](#plugins-used)
+
+---
+
+## How to install
 
 ### Linux
 
@@ -67,6 +74,8 @@ git clone https://github.com/gabvannay/Neovim-Customization.git $env:LOCALAPPDAT
 nvim
 ```
 
+---
+
 ## Plugins used
 
 | Name | Link | Use |
@@ -76,3 +85,6 @@ nvim
 | lsp_lines | [GitHub](https://github.com/maan2003/lsp_lines.nvim) | Allow to view more from the errors or warnings give by the linters. Default keymap is `F2`, you can change it in `lua/config/keymaps.lua` |
 | neo-tree | [GitHub](https://github.com/nvim-neo-tree/neo-tree.nvim) | With dev-icons, on the right because it's cool 😎. Use `Space+E` to toggle it |
 
+---
+
+12/06/2024
