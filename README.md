@@ -1,11 +1,19 @@
 
-# Personal *Neovim* configuration <!-- omit in toc -->
+# Personal *Neovim* configuration
 
 Using [LazyVim](http://www.lazyvim.org/) as a base and adding my own plugins to the mix.
 
-## 📝 Table of content <!-- omit in toc -->
+## 📝 Table of content
 
-${toc}
+
+<!-- mtoc-start -->
+
+* [👀 How to install](#-how-to-install)
+  * [🐧 Linux](#-linux)
+  * [🪟 Windows](#-windows)
+* [🔌 Plugins used](#-plugins-used)
+
+<!-- mtoc-end -->
 
 ---
 
@@ -81,6 +89,8 @@ nvim
 | fugitive | [GitHub](https://github.com/tpope/vim-fugitive) | Integrates *git* inside *Neovim*. Use `:G` to show full log or enter git commands |
 | lsp_lines | [GitHub](https://github.com/maan2003/lsp_lines.nvim) | Allow to view more from the errors or warnings give by the linters. Default keymap is `F2`, you can change it in `lua/config/keymaps.lua` |
 | neo-tree | [GitHub](https://github.com/nvim-neo-tree/neo-tree.nvim) | With dev-icons, on the right because it's cool 😎. Use `Space+E` to toggle it |
+| markdown-preview | [GitHub](https://github.com/iamcco/markdown-preview.nvim) | Use the command `:MarkdownPreview` to open a new browser tab with auto-updating preview |
+| markdown-toc | [GitHub](https://github.com/hedyhli/markdown-toc.nvim) | Go to the line where you want your *toc* and use the command `:Mtoc` to generate your table. |
 
 ---
 
