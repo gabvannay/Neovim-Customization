@@ -1,20 +1,17 @@
 
-# Personal *Neovim* configuration
+# Personal *Neovim* configuration <!-- omit in toc -->
 
 Using [LazyVim](http://www.lazyvim.org/) as a base and adding my own plugins to the mix.
 
-## Table of content
+## 📝 Table of content <!-- omit in toc -->
 
-* [How to install](#how-to-install)
-    * [Linux](#linux)
-    * [Windows](#windows)
-* [Plugins used](#plugins-used)
+${toc}
 
 ---
 
-## How to install
+## 👀 How to install
 
-### Linux
+### 🐧 Linux
 
 1. [Head to *Neovim*'s GitHub](https://github.com/neovim/neovim/blob/master/INSTALL.md) and follow the instructions to download it, here's the example using the pre-built binaries
 
@@ -27,10 +24,10 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 ... and then add the path to your `.bashrc`
 
 ```bash
-export PATH="$PATH:/opt/nvim-linux64/bin"
+echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.bashrc
 ```
 
-2. Clone this repo into your config folder
+2. Clone this repo into your `.config` folder
 
 ```bash
 git clone https://github.com/gabvannay/Neovim-Customization.git ~/.config/nvim
@@ -42,7 +39,7 @@ git clone https://github.com/gabvannay/Neovim-Customization.git ~/.config/nvim
 nvim
 ```
 
-### Windows
+### 🪟 Windows
 
 1. Make sure you have [chocolatey](https://chocolatey.org/) installed by typing `choco -v` if you don't have any result, you can install it with the command below.
 
@@ -62,7 +59,7 @@ choco install zig
 winget install --id=Neovim.Neovim -s winget
 ```
 
-4. Clone this repo into your config folder
+4. Clone this repo into your `.config` folder
 
 ```bash
 git clone https://github.com/gabvannay/Neovim-Customization.git $env:LOCALAPPDATA\nvim
@@ -76,7 +73,7 @@ nvim
 
 ---
 
-## Plugins used
+## 🔌 Plugins used
 
 | Name | Link | Use |
 | ---- | -- | -- |
@@ -87,4 +84,4 @@ nvim
 
 ---
 
-12/06/2024
+2024-06-23
